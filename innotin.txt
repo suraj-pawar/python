@@ -1,0 +1,29 @@
+>>> s1="suraj"
+>>> s2="sur"
+>>> s1 in s2
+False
+>>> s2 in s1
+True
+>>>
+>>> 'h' in 'hello'
+True
+>>> 'h' not in 'ind'
+True
+>>> a=100
+>>> b=
+  File "<stdin>", line 1
+    b=
+     ^
+SyntaxError: invalid syntax
+>>> b=100
+>>> a==b
+True
+>>> c=a
+>>> a==c
+True
+>>>
+>>> x1=1000
+>>> x2=1000
+>>> x1 is x2
+False
+>>>
